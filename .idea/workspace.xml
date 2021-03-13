@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584bb4f6-727d-4b4f-9c40-97799cfa171a" name="Default Changelist" comment="" />
+    <list default="true" id="584bb4f6-727d-4b4f-9c40-97799cfa171a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +55,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pAFLl6T3R3siN3pvKTMe1cYV8S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,7 +80,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../flow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -92,7 +97,7 @@
       <recent name="E:\Fanni\greenfox\kelletlen\project phase\my-bookshelf\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserServiceTests.saveAndHashPassword">
+  <component name="RunManager" selected="Spring Boot.MybookshelfApplication">
     <configuration name="RegistrationControllerTest.usernameAlreadyExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,11 +202,20 @@
         <env name="BOOKSHELF_DB_USERNAME" value="root" />
         <env name="BOOKSHELF_DB_PASSWORD" value="Morrison11" />
         <env name="SECRET_KEY" value="ASDASD" />
+        <env name="DATABASE_ACTION" value="update" />
       </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.RegistrationControllerTest.usernameAlreadyExists" />
+      <item itemvalue="Gradle.UserServiceTests.existsByUsername" />
+      <item itemvalue="Gradle.UserServiceTests.saveAndHashPassword" />
+      <item itemvalue="Gradle.UserServiceTests.saveUser" />
+      <item itemvalue="Gradle.UserServiceTests.validateUserShouldValidateCorrectPassword" />
+      <item itemvalue="Spring Boot.MybookshelfApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.UserServiceTests.saveAndHashPassword" />
@@ -228,6 +242,7 @@
       <workItem from="1615201427526" duration="48591000" />
       <workItem from="1615568549890" duration="7154000" />
       <workItem from="1615622625247" duration="13658000" />
+      <workItem from="1615643843423" duration="478000" />
     </task>
     <servers />
   </component>
@@ -251,10 +266,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615229723475" />
-    <state x="100" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615482224481">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="94" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615643993623">
+      <screen x="0" y="-1024" width="1280" height="984" />
     </state>
-    <state x="94" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615230491970" />
+    <state x="94" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615643993623" />
     <state x="100" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615482224481" />
     <state x="92" y="-932" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1615232323628">
       <screen x="0" y="-1024" width="1280" height="984" />
@@ -273,10 +288,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="385" y="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1615559256595" />
-    <state x="317" y="-783" width="455" height="500" key="EnvironmentVariablesDialog" timestamp="1614866659546">
+    <state x="317" y="-783" width="455" height="500" key="EnvironmentVariablesDialog" timestamp="1615643992768">
       <screen x="0" y="-1024" width="1280" height="984" />
     </state>
-    <state x="317" y="-783" width="455" height="500" key="EnvironmentVariablesDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1614866659546" />
+    <state x="317" y="-783" width="455" height="500" key="EnvironmentVariablesDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615643992768" />
     <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1615576395524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
