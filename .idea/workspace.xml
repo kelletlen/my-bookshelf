@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="584bb4f6-727d-4b4f-9c40-97799cfa171a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pAFLl6T3R3siN3pvKTMe1cYV8S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../flow" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.greenfoxacademy.mybookshelf.controllers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Fanni\greenfox\kelletlen\project phase\my-bookshelf\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.UserServiceTests.saveAndHashPassword">
+    <configuration name="RegistrationControllerTest.usernameAlreadyExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.RegistrationControllerTest.usernameAlreadyExists&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTests.existsByUsername" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.UserServiceTests.existsByUsername&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTests.saveAndHashPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.UserServiceTests.saveAndHashPassword&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTests.saveUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.UserServiceTests.saveUser&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTests.validateUserShouldValidateCorrectPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.UserServiceTests.validateUserShouldValidateCorrectPassword&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MybookshelfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybookshelf.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.greenfoxacademy.mybookshelf.MybookshelfApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="BOOKSHELF_DB_URL" value="jdbc:mysql://localhost/bookshelf?serverTimezone=UTC" />
+        <env name="BOOKSHELF_DB_USERNAME" value="root" />
+        <env name="BOOKSHELF_DB_PASSWORD" value="Morrison11" />
+        <env name="SECRET_KEY" value="ASDASD" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.UserServiceTests.saveAndHashPassword" />
+        <item itemvalue="Gradle.UserServiceTests.existsByUsername" />
+        <item itemvalue="Gradle.UserServiceTests.saveUser" />
+        <item itemvalue="Gradle.RegistrationControllerTest.usernameAlreadyExists" />
+        <item itemvalue="Gradle.UserServiceTests.validateUserShouldValidateCorrectPassword" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="584bb4f6-727d-4b4f-9c40-97799cfa171a" name="Default Changelist" comment="" />
+      <created>1614617933400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614617933400</updated>
+      <workItem from="1614617941061" duration="775000" />
+      <workItem from="1614791343773" duration="50472000" />
+      <workItem from="1615053151406" duration="3022000" />
+      <workItem from="1615201427526" duration="48591000" />
+      <workItem from="1615568549890" duration="7154000" />
+      <workItem from="1615622625247" duration="13658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1615229723475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615229723475" />
+    <state x="100" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615482224481">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="94" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615230491970" />
+    <state x="100" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615482224481" />
+    <state x="92" y="-932" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1615232323628">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state x="92" y="-932" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615232323628" />
+    <state x="445" y="-826" key="#com.intellij.ide.util.MemberChooser" timestamp="1615633519506">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state x="445" y="-826" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615633519506" />
+    <state x="475" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615484075466" />
+    <state x="361" y="-810" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615400362510">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state x="361" y="-810" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615400362510" />
+    <state x="385" y="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1615559256595">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="385" y="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1615559256595" />
+    <state x="317" y="-783" width="455" height="500" key="EnvironmentVariablesDialog" timestamp="1614866659546">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state x="317" y="-783" width="455" height="500" key="EnvironmentVariablesDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1614866659546" />
+    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1615576395524">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="433" y="-883" key="FileChooserDialogImpl/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615401669648" />
+    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615576395524" />
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom" timestamp="1615635818850">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615635818850" />
+    <state width="1323" height="103" key="GridCell.Tab.0.bottom/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
+    <state width="1323" height="5" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615302436809" />
+    <state width="1237" height="181" key="GridCell.Tab.0.center" timestamp="1615635818850">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.0.center/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615635818850" />
+    <state width="1323" height="103" key="GridCell.Tab.0.center/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
+    <state width="1323" height="5" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615302436808" />
+    <state width="1237" height="181" key="GridCell.Tab.0.left" timestamp="1615635818850">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.0.left/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615635818850" />
+    <state width="1323" height="103" key="GridCell.Tab.0.left/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
+    <state width="1323" height="5" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615302436808" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right" timestamp="1615635818850">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.0.right/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615635818850" />
+    <state width="1323" height="103" key="GridCell.Tab.0.right/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
+    <state width="1323" height="5" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615302436808" />
+    <state width="1237" height="181" key="GridCell.Tab.1.bottom" timestamp="1615635818851">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.1.bottom/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615635818851" />
+    <state width="1323" height="103" key="GridCell.Tab.1.bottom/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803918" />
+    <state width="1237" height="181" key="GridCell.Tab.1.center" timestamp="1615635818850">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.1.center/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615635818850" />
+    <state width="1323" height="103" key="GridCell.Tab.1.center/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803918" />
+    <state width="1237" height="181" key="GridCell.Tab.1.left" timestamp="1615635818850">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.1.left/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615635818850" />
+    <state width="1323" height="103" key="GridCell.Tab.1.left/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
+    <state width="1237" height="181" key="GridCell.Tab.1.right" timestamp="1615635818851">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.1.right/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615635818851" />
+    <state width="1323" height="103" key="GridCell.Tab.1.right/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803918" />
+    <state width="1237" height="263" key="GridCell.Tab.2.bottom" timestamp="1615049792094">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.2.bottom/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615049792094" />
+    <state width="1237" height="263" key="GridCell.Tab.2.center" timestamp="1615049792094">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.2.center/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615049792094" />
+    <state width="1237" height="263" key="GridCell.Tab.2.left" timestamp="1615049792094">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.2.left/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615049792094" />
+    <state width="1237" height="263" key="GridCell.Tab.2.right" timestamp="1615049792094">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.2.right/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615049792094" />
+    <state x="344" y="-641" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1614792005612">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state x="344" y="-641" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1614792005612" />
+    <state x="412" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1615204832375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615204832375" />
+    <state x="45" y="-992" key="new project wizard" timestamp="1615386019862">
+      <screen x="0" y="-1024" width="1280" height="984" />
+    </state>
+    <state x="45" y="-992" key="new project wizard/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615386019862" />
+    <state x="65" y="24" key="new project wizard/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615384130232" />
+  </component>
+</project>

@@ -1,0 +1,85 @@
+com/greenfoxacademy/mybookshelf/repositories/BookRepository.java
+ com.greenfoxacademy.mybookshelf.repositories.BookRepository
+com/greenfoxacademy/mybookshelf/models/ResponseState.java
+ com.greenfoxacademy.mybookshelf.models.ResponseState
+com/greenfoxacademy/mybookshelf/services/RoleServiceImpl.java
+ com.greenfoxacademy.mybookshelf.services.RoleServiceImpl
+com/greenfoxacademy/mybookshelf/MybookshelfApplication.java
+ com.greenfoxacademy.mybookshelf.MybookshelfApplication
+com/greenfoxacademy/mybookshelf/dtos/UserRegistrationDTO.java
+ com.greenfoxacademy.mybookshelf.dtos.UserRegistrationDTO
+com/greenfoxacademy/mybookshelf/models/Book.java
+ com.greenfoxacademy.mybookshelf.models.Book
+com/greenfoxacademy/mybookshelf/models/ResponseError.java
+ com.greenfoxacademy.mybookshelf.models.ResponseError
+com/greenfoxacademy/mybookshelf/dtos/LoanDTO.java
+ com.greenfoxacademy.mybookshelf.dtos.LoanDTO
+com/greenfoxacademy/mybookshelf/models/Role.java
+ com.greenfoxacademy.mybookshelf.models.Role
+com/greenfoxacademy/mybookshelf/dtos/ReviewDTO.java
+ com.greenfoxacademy.mybookshelf.dtos.ReviewDTO
+com/greenfoxacademy/mybookshelf/dtos/LoggedInUserDTO.java
+ com.greenfoxacademy.mybookshelf.dtos.LoggedInUserDTO
+com/greenfoxacademy/mybookshelf/services/BookService.java
+ com.greenfoxacademy.mybookshelf.services.BookService
+com/greenfoxacademy/mybookshelf/services/RoleService.java
+ com.greenfoxacademy.mybookshelf.services.RoleService
+com/greenfoxacademy/mybookshelf/services/JwtService.java
+ com.greenfoxacademy.mybookshelf.services.JwtService
+com/greenfoxacademy/mybookshelf/repositories/RoleRepository.java
+ com.greenfoxacademy.mybookshelf.repositories.RoleRepository
+com/greenfoxacademy/mybookshelf/services/JwtServiceImpl.java
+ com.greenfoxacademy.mybookshelf.services.JwtServiceImpl
+com/greenfoxacademy/mybookshelf/services/BookServiceImpl.java
+ com.greenfoxacademy.mybookshelf.services.BookServiceImpl
+com/greenfoxacademy/mybookshelf/services/LoanService.java
+ com.greenfoxacademy.mybookshelf.services.LoanService
+com/greenfoxacademy/mybookshelf/security/WebSecurityConfig.java
+ com.greenfoxacademy.mybookshelf.security.WebSecurityConfig
+com/greenfoxacademy/mybookshelf/models/Copy.java
+ com.greenfoxacademy.mybookshelf.models.Copy
+com/greenfoxacademy/mybookshelf/models/User.java
+ com.greenfoxacademy.mybookshelf.models.User
+ com.greenfoxacademy.mybookshelf.models.User$UserBuilder
+com/greenfoxacademy/mybookshelf/repositories/LoanRepository.java
+ com.greenfoxacademy.mybookshelf.repositories.LoanRepository
+com/greenfoxacademy/mybookshelf/controllers/ReviewController.java
+ com.greenfoxacademy.mybookshelf.controllers.ReviewController
+com/greenfoxacademy/mybookshelf/repositories/ReviewRepository.java
+ com.greenfoxacademy.mybookshelf.repositories.ReviewRepository
+com/greenfoxacademy/mybookshelf/security/JwtTokenFilter.java
+ com.greenfoxacademy.mybookshelf.security.JwtTokenFilter
+com/greenfoxacademy/mybookshelf/models/Loan.java
+ com.greenfoxacademy.mybookshelf.models.Loan
+ com.greenfoxacademy.mybookshelf.models.Loan$LoanBuilder
+com/greenfoxacademy/mybookshelf/services/ReviewService.java
+ com.greenfoxacademy.mybookshelf.services.ReviewService
+com/greenfoxacademy/mybookshelf/models/Review.java
+ com.greenfoxacademy.mybookshelf.models.Review
+ com.greenfoxacademy.mybookshelf.models.Review$ReviewBuilder
+com/greenfoxacademy/mybookshelf/services/CopyService.java
+ com.greenfoxacademy.mybookshelf.services.CopyService
+com/greenfoxacademy/mybookshelf/services/CopyServiceImpl.java
+ com.greenfoxacademy.mybookshelf.services.CopyServiceImpl
+com/greenfoxacademy/mybookshelf/services/LoanServiceImpl.java
+ com.greenfoxacademy.mybookshelf.services.LoanServiceImpl
+com/greenfoxacademy/mybookshelf/services/ReviewServiceImpl.java
+ com.greenfoxacademy.mybookshelf.services.ReviewServiceImpl
+com/greenfoxacademy/mybookshelf/repositories/CopyRepository.java
+ com.greenfoxacademy.mybookshelf.repositories.CopyRepository
+com/greenfoxacademy/mybookshelf/repositories/UserRepository.java
+ com.greenfoxacademy.mybookshelf.repositories.UserRepository
+com/greenfoxacademy/mybookshelf/controllers/LoginController.java
+ com.greenfoxacademy.mybookshelf.controllers.LoginController
+com/greenfoxacademy/mybookshelf/controllers/UserController.java
+ com.greenfoxacademy.mybookshelf.controllers.UserController
+com/greenfoxacademy/mybookshelf/services/UserService.java
+ com.greenfoxacademy.mybookshelf.services.UserService
+com/greenfoxacademy/mybookshelf/controllers/CopyController.java
+ com.greenfoxacademy.mybookshelf.controllers.CopyController
+com/greenfoxacademy/mybookshelf/services/UserServiceImpl.java
+ com.greenfoxacademy.mybookshelf.services.UserServiceImpl
+com/greenfoxacademy/mybookshelf/controllers/BookController.java
+ com.greenfoxacademy.mybookshelf.controllers.BookController
+com/greenfoxacademy/mybookshelf/controllers/RegistrationController.java
+ com.greenfoxacademy.mybookshelf.controllers.RegistrationController
