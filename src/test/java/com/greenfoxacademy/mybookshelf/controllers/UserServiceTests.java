@@ -54,7 +54,7 @@ public class UserServiceTests {
   }
 
   @Test
-  public void saveAndHashPassword () {
+  public void saveAndHashPasswordShouldEncodePasswordAndSaveUserCorrectly () {
     UserServiceImpl userService = new UserServiceImpl(userRepository, jwtService, bCryptPasswordEncoder);
     String username = "username";
     String password = "password";

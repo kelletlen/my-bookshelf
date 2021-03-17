@@ -1,10 +1,6 @@
 package com.greenfoxacademy.mybookshelf.controllers;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.greenfoxacademy.mybookshelf.dtos.LoggedInUserDTO;
-import com.greenfoxacademy.mybookshelf.dtos.UserRegistrationDTO;
 import com.greenfoxacademy.mybookshelf.models.User;
-import com.greenfoxacademy.mybookshelf.services.JwtService;
 import com.greenfoxacademy.mybookshelf.services.UserService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -15,9 +11,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
+import java.util.HashSet;
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -32,44 +27,12 @@ public class LoginControllerTest {
   @Autowired
   ObjectMapper objectMapper;
 
-  @Mock
+  @Autowired
   UserService userService;
 
-  @Mock
-  JwtService jwtServiceMock;
 
   @Test
-  public void findUserByUsername () {
-    User newUser = User.builder()
-        .username("username")
-        .password("pw")
-        .build();
-    String username = newUser.getUsername();
-    when(userService.findByUsername(username)).thenReturn(newUser);
-    assertEquals(userService.findByUsername(username), newUser);
-  }
-
-  @Test
-  public void existByUsername() {
-    User user = User.builder()
-        .username("username")
-        .build();
-    when(userService.existsByUsername("username")).thenReturn(true);
-    assertTrue(userService.existsByUsername("username"));
-    assertFalse(userService.existsByUsername(""));
-  }
-
-  @Test
-  public void validateUser() {
-    UserRegistrationDTO user = new UserRegistrationDTO();
-    LoggedInUserDTO storedUser = new LoggedInUserDTO();
-    storedUser.setUsername(user.getUsername());
-    when(userService.validateUser(user)).thenReturn(storedUser);
-    assertEquals(userService.validateUser(user), storedUser);
-  }
-
-  @Test
-  public void noUsernameAndPasswordAdded () throws Exception {
+  public void loginWithoutUsernameAndPasswordShouldReturnWithBadRequest () throws Exception {
     User newUser = User.builder()
         .username(null)
         .password(null)
@@ -80,8 +43,9 @@ public class LoginControllerTest {
         .andExpect(status().isBadRequest())
         .andExpect(jsonPath("$.error", is("username and password must be set")));
   }
+
   @Test
-  public void noPasswordAdded() throws Exception {
+  public void loginWithoutPasswordShouldReturnWithBadRequest() throws Exception {
     User newUser = User.builder()
         .username("username")
         .password(null)
@@ -93,7 +57,7 @@ public class LoginControllerTest {
         .andExpect(jsonPath("$.error", is("password must be set")));
   }
   @Test
-  public void noUsernameAdded() throws Exception {
+  public void loginWithoutUsernameShouldReturnWithBadRequest() throws Exception {
     User newUser = User.builder()
         .username(null)
         .password("pw")
@@ -106,15 +70,17 @@ public class LoginControllerTest {
   }
 
   @Test
-  public void userDoesNotExist() throws Exception {
+  public void loginWithNonExistingUsernameShouldReturnBadRequest() throws Exception {
     User newUser = User.builder()
         .password("pw")
         .username("username")
+        .roles(new HashSet<>())
         .build();
     userService.saveUser(newUser);
     User notExistingUser = User.builder()
         .password("pw")
         .username("notExistingUsername")
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/login")
         .contentType(MediaType.APPLICATION_JSON)
@@ -123,10 +89,11 @@ public class LoginControllerTest {
         .andExpect(jsonPath("$.error", is("user does not exists with the given username password combination")));
   }
   @Test
-  public void success() throws Exception {
+  public void loginWithCorrectUsernameAndPasswordShouldReturnToken() throws Exception {
     User newUser = User.builder()
         .password("pw")
         .username("username")
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/register")
         .contentType(MediaType.APPLICATION_JSON)

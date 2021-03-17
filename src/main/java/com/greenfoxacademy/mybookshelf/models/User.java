@@ -34,9 +34,6 @@ public class User {
   @Fetch(value = FetchMode.SUBSELECT)
   private List<Book> wishlist = new ArrayList<>();
 
-  @ManyToMany
-  private Set<User> friends = new HashSet<>();
-
   @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
   @Fetch(value = FetchMode.SUBSELECT)
   private Set<Role> roles = new HashSet<>();

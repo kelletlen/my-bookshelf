@@ -4,27 +4,18 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.greenfoxacademy.mybookshelf.models.User;
 import com.greenfoxacademy.mybookshelf.repositories.UserRepository;
 import com.greenfoxacademy.mybookshelf.services.UserService;
-import javafx.application.Application;
-import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ActiveProfiles;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.HashSet;
 
 import static org.hamcrest.core.Is.is;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -52,9 +43,8 @@ public class RegistrationControllerTest {
   }
 
 
-
   @Test
-  public void noUsernameAdded() throws Exception {
+  public void registerWithoutUsernameShouldReturnWithBadRequest() throws Exception {
     User newUser = User.builder()
         .username(null)
         .password("pw")
@@ -67,7 +57,7 @@ public class RegistrationControllerTest {
   }
 
   @Test
-  public void noPasswordAdded() throws Exception {
+  public void registerWithoutPasswordShouldReturnWithBadRequest() throws Exception {
     User newUser = User.builder()
         .username("user")
         .password(null)
@@ -80,7 +70,7 @@ public class RegistrationControllerTest {
   }
 
   @Test
-  public void noUsernameAndPasswordAdded () throws Exception {
+  public void registerWithoutUsernameAndPasswordShouldReturnWithBadRequest() throws Exception {
     User newUser = User.builder()
         .username(null)
         .password(null)
@@ -93,7 +83,7 @@ public class RegistrationControllerTest {
   }
 
   @Test
-  public void usernameAlreadyExists () throws Exception {
+  public void registerWithAlreadyExistingUsernameShouldReturnBadRequest() throws Exception {
     User user = User.builder()
         .username("username")
         .password("pw")
@@ -115,7 +105,7 @@ public class RegistrationControllerTest {
   }
 
   @Test
-  public void registerSuccess() throws Exception {
+  public void registerWithUsernameAndPasswordShouldReturnOk() throws Exception {
     User newUser = User.builder()
         .username("username")
         .password("pw")
@@ -126,6 +116,4 @@ public class RegistrationControllerTest {
         .andExpect(status().isOk())
         .andExpect(jsonPath("$.state", is("success")));
   }
-
-
 }

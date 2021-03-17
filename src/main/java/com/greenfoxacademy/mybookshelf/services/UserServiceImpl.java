@@ -94,12 +94,7 @@ public class UserServiceImpl implements UserService {
   @Override
   public boolean isBookInUsersWishlist(long userId, long bookId) {
     User user = userRepository.findById(userId);
-    for (Book b: user.getWishlist()) {
-      if (b.getId() == bookId) {
-        return true;
-      }
-    }
-    return false;
+    return user.getWishlist().stream().filter(p -> p.getId() == bookId).findAny().orElse(null) != null;
   }
 
   @Override
@@ -111,5 +106,4 @@ public class UserServiceImpl implements UserService {
     this.saveUser(user);
     return user;
   }
-
 }

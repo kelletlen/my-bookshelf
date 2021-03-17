@@ -25,11 +25,8 @@ public class BookController {
 
   @PostMapping(path = "/books/add")
   public ResponseEntity<Object> addBook(@RequestBody Book book) {
-    Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-    User authenticatedUser = (User) auth.getPrincipal();
-    if (authenticatedUser == null) {
-      return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
-    } else if (bookService.existsByTitleAndAuthor(book.getTitle(), book.getAuthor())) {
+
+    if (bookService.existsByTitleAndAuthor(book.getTitle(), book.getAuthor())) {
       return ResponseEntity.badRequest().body(new ResponseError("This book is already in the database."));
     } else {
       bookService.addBook(book);
@@ -39,11 +36,7 @@ public class BookController {
 
   @GetMapping(path = "/books/search/author")
   public ResponseEntity<Object> searchBookByAuthor(@RequestParam String author) {
-    Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-    User authenticatedUser = (User) auth.getPrincipal();
-    if (authenticatedUser == null) {
-      return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
-    } else if (author == null) {
+     if (author == null) {
       return ResponseEntity.badRequest().body(new ResponseError("Please provide an author."));
     } else if (bookService.findAllByAuthor(author).isEmpty()) {
       return ResponseEntity.badRequest().body(new ResponseError("There is no book in our database from this author"));
@@ -54,11 +47,7 @@ public class BookController {
 
   @GetMapping(path = "/books/search/title")
   public ResponseEntity<Object> searchBookByTitle(@RequestParam String title) {
-    Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-    User authenticatedUser = (User) auth.getPrincipal();
-    if (authenticatedUser == null) {
-      return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
-    } else if (title == null) {
+     if (title == null) {
       return ResponseEntity.badRequest().body(new ResponseError("Please provide a title."));
     } else if (bookService.findAllByTitle(title).isEmpty()) {
       return ResponseEntity.badRequest().body(new ResponseError("There is no book in our database with this title"));
@@ -69,11 +58,7 @@ public class BookController {
 
   @GetMapping(path="/books/search/description")
   public ResponseEntity<Object> searchBookByDescription (@RequestParam String keyword) {
-    Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-    User authenticatedUser = (User) auth.getPrincipal();
-    if (authenticatedUser == null) {
-      return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
-    } else if (keyword == null) {
+     if (keyword == null) {
       return ResponseEntity.badRequest().body(new ResponseError("Please provide a keyword."));
     } else if (bookService.findAllByDescription(keyword).isEmpty()) {
       return ResponseEntity.badRequest().body(new ResponseError("There is no book in our database that matches this keyword."));
@@ -108,6 +93,7 @@ public class BookController {
     } else if (!userService.isBookInUsersWishlist(authenticatedUser.getId(), id)) {
       return ResponseEntity.badRequest().body(new ResponseError("This book is not in your wishlist."));
     } else {
+      System.out.println(authenticatedUser.getWishlist().get(0) == book);
       authenticatedUser.removeFromWishlist(book);
       userService.saveUser(authenticatedUser);
       return ResponseEntity.status(HttpStatus.CREATED).body(new ResponseState("The book is now removed from your wishlist."));
