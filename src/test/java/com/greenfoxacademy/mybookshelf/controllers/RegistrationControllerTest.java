@@ -48,6 +48,7 @@ public class RegistrationControllerTest {
     User newUser = User.builder()
         .username(null)
         .password("pw")
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/register")
         .contentType(MediaType.APPLICATION_JSON)
@@ -61,6 +62,7 @@ public class RegistrationControllerTest {
     User newUser = User.builder()
         .username("user")
         .password(null)
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/register")
         .contentType(MediaType.APPLICATION_JSON)
@@ -74,6 +76,7 @@ public class RegistrationControllerTest {
     User newUser = User.builder()
         .username(null)
         .password(null)
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/register")
         .contentType(MediaType.APPLICATION_JSON)
@@ -109,6 +112,7 @@ public class RegistrationControllerTest {
     User newUser = User.builder()
         .username("username")
         .password("pw")
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/register")
         .contentType(MediaType.APPLICATION_JSON)

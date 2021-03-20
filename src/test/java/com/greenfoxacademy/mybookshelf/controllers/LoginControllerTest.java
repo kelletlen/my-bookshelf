@@ -1,7 +1,9 @@
 package com.greenfoxacademy.mybookshelf.controllers;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.greenfoxacademy.mybookshelf.models.User;
+import com.greenfoxacademy.mybookshelf.repositories.UserRepository;
 import com.greenfoxacademy.mybookshelf.services.UserService;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +30,12 @@ public class LoginControllerTest {
   ObjectMapper objectMapper;
 
   @Autowired
-  UserService userService;
+  UserRepository userRepository;
+
+  @BeforeEach
+  void deleteDB() {
+    userRepository.deleteAll();
+  }
 
 
   @Test
@@ -36,6 +43,7 @@ public class LoginControllerTest {
     User newUser = User.builder()
         .username(null)
         .password(null)
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/login")
         .contentType(MediaType.APPLICATION_JSON)
@@ -49,6 +57,7 @@ public class LoginControllerTest {
     User newUser = User.builder()
         .username("username")
         .password(null)
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/login")
         .contentType(MediaType.APPLICATION_JSON)
@@ -61,6 +70,7 @@ public class LoginControllerTest {
     User newUser = User.builder()
         .username(null)
         .password("pw")
+        .roles(new HashSet<>())
         .build();
     mockMvc.perform(post("/users/login")
         .contentType(MediaType.APPLICATION_JSON)
@@ -76,7 +86,7 @@ public class LoginControllerTest {
         .username("username")
         .roles(new HashSet<>())
         .build();
-    userService.saveUser(newUser);
+    userRepository.save(newUser);
     User notExistingUser = User.builder()
         .password("pw")
         .username("notExistingUsername")

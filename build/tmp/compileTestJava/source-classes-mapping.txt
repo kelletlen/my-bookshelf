@@ -2,9 +2,9 @@ com/greenfoxacademy/mybookshelf/MybookshelfApplicationTests.java
  com.greenfoxacademy.mybookshelf.MybookshelfApplicationTests
 com/greenfoxacademy/mybookshelf/controllers/UserServiceTests.java
  com.greenfoxacademy.mybookshelf.controllers.UserServiceTests
-com/greenfoxacademy/mybookshelf/controllers/RegistrationControllerTest.java
- com.greenfoxacademy.mybookshelf.controllers.RegistrationControllerTest
 com/greenfoxacademy/mybookshelf/controllers/LoginControllerTest.java
  com.greenfoxacademy.mybookshelf.controllers.LoginControllerTest
 com/greenfoxacademy/mybookshelf/controllers/BookControllerTest.java
  com.greenfoxacademy.mybookshelf.controllers.BookControllerTest
+com/greenfoxacademy/mybookshelf/controllers/RegistrationControllerTest.java
+ com.greenfoxacademy.mybookshelf.controllers.RegistrationControllerTest

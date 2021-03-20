@@ -7,6 +7,7 @@ import com.greenfoxacademy.mybookshelf.repositories.BookRepository;
 import com.greenfoxacademy.mybookshelf.repositories.UserRepository;
 import com.greenfoxacademy.mybookshelf.services.JwtService;
 import com.greenfoxacademy.mybookshelf.services.UserService;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -43,6 +44,10 @@ public class BookControllerTest {
   @Autowired
   JwtService jwtService;
 
+  @BeforeEach
+  void deleteDB() {
+    userRepository.deleteAll();
+  }
 
   @Test
   public void addBookToWishlistWithIncorrectIdShouldReturnWithBadRequest () throws Exception {

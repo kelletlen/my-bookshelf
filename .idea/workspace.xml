@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584bb4f6-727d-4b4f-9c40-97799cfa171a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/greenfoxacademy/mybookshelf/controllers/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/greenfoxacademy/mybookshelf/controllers/BookControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/greenfoxacademy/mybookshelf/controllers/LoginControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/greenfoxacademy/mybookshelf/controllers/LoginControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/greenfoxacademy/mybookshelf/controllers/RegistrationControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/greenfoxacademy/mybookshelf/controllers/RegistrationControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +103,26 @@
       <recent name="E:\Fanni\greenfox\kelletlen\project phase\my-bookshelf\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BookControllerTest.addBookToWishlistWithCorrectIdShouldReturnWith200">
+  <component name="RunManager" selected="Gradle.UserServiceTests">
+    <configuration name="BookControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.BookControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="BookControllerTest.addBookToWishlistWithCorrectIdShouldReturnWith200" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -114,12 +142,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookControllerTest.addBookToWishlistWithIncorrectIdShouldReturnWithBadRequest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.BookControllerTest.addBookToWishlistWithIncorrectIdShouldReturnWithBadRequest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.LoginControllerTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -133,12 +161,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginControllerTest.loginWithCorrectUsernameAndPasswordShouldReturnToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.LoginControllerTest.loginWithCorrectUsernameAndPasswordShouldReturnToken&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.RegistrationControllerTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -152,31 +180,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationControllerTest.usernameAlreadyExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserServiceTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.RegistrationControllerTest.usernameAlreadyExists&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserServiceTests.saveAndHashPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.UserServiceTests.saveAndHashPassword&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.greenfoxacademy.mybookshelf.controllers.UserServiceTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -207,19 +216,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MybookshelfApplication" />
-      <item itemvalue="Gradle.RegistrationControllerTest.usernameAlreadyExists" />
-      <item itemvalue="Gradle.LoginControllerTest.loginWithCorrectUsernameAndPasswordShouldReturnToken" />
-      <item itemvalue="Gradle.UserServiceTests.saveAndHashPassword" />
-      <item itemvalue="Gradle.BookControllerTest.addBookToWishlistWithIncorrectIdShouldReturnWithBadRequest" />
       <item itemvalue="Gradle.BookControllerTest.addBookToWishlistWithCorrectIdShouldReturnWith200" />
+      <item itemvalue="Gradle.BookControllerTest" />
+      <item itemvalue="Gradle.LoginControllerTest" />
+      <item itemvalue="Gradle.RegistrationControllerTest" />
+      <item itemvalue="Gradle.UserServiceTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserServiceTests" />
+        <item itemvalue="Gradle.RegistrationControllerTest" />
+        <item itemvalue="Gradle.LoginControllerTest" />
+        <item itemvalue="Gradle.BookControllerTest" />
         <item itemvalue="Gradle.BookControllerTest.addBookToWishlistWithCorrectIdShouldReturnWith200" />
-        <item itemvalue="Gradle.BookControllerTest.addBookToWishlistWithIncorrectIdShouldReturnWithBadRequest" />
-        <item itemvalue="Gradle.LoginControllerTest.loginWithCorrectUsernameAndPasswordShouldReturnToken" />
-        <item itemvalue="Gradle.RegistrationControllerTest.usernameAlreadyExists" />
-        <item itemvalue="Gradle.UserServiceTests.saveAndHashPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +249,7 @@
       <workItem from="1615568549890" duration="7154000" />
       <workItem from="1615622625247" duration="13658000" />
       <workItem from="1615643843423" duration="6323000" />
-      <workItem from="1615829011760" duration="45123000" />
+      <workItem from="1615829011760" duration="49806000" />
     </task>
     <servers />
   </component>
@@ -264,10 +273,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615229723475" />
-    <state x="94" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615645898322">
+    <state x="94" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616251971885">
       <screen x="0" y="-1024" width="1280" height="984" />
     </state>
-    <state x="94" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1615645898322" />
+    <state x="94" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616251971885" />
     <state x="100" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615482224481" />
     <state x="92" y="-932" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1615232323628">
       <screen x="0" y="-1024" width="1280" height="984" />
@@ -304,28 +313,28 @@
     <state x="433" y="-883" key="FileChooserDialogImpl/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616008022989" />
     <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1616089994749" />
     <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615897992607" />
-    <state width="1237" height="109" key="GridCell.Tab.0.bottom" timestamp="1616014473066">
+    <state width="1237" height="236" key="GridCell.Tab.0.bottom" timestamp="1616259566735">
       <screen x="0" y="-1024" width="1280" height="984" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.bottom/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616014473066" />
+    <state width="1237" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616259566735" />
     <state width="1323" height="103" key="GridCell.Tab.0.bottom/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
     <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615921552446" />
-    <state width="1237" height="109" key="GridCell.Tab.0.center" timestamp="1616014473065">
+    <state width="1237" height="236" key="GridCell.Tab.0.center" timestamp="1616259566735">
       <screen x="0" y="-1024" width="1280" height="984" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.center/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616014473065" />
+    <state width="1237" height="236" key="GridCell.Tab.0.center/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616259566735" />
     <state width="1323" height="103" key="GridCell.Tab.0.center/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
     <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615921552446" />
-    <state width="1237" height="109" key="GridCell.Tab.0.left" timestamp="1616014473065">
+    <state width="1237" height="236" key="GridCell.Tab.0.left" timestamp="1616259566735">
       <screen x="0" y="-1024" width="1280" height="984" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.left/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616014473065" />
+    <state width="1237" height="236" key="GridCell.Tab.0.left/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616259566735" />
     <state width="1323" height="103" key="GridCell.Tab.0.left/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
     <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615921552446" />
-    <state width="1237" height="109" key="GridCell.Tab.0.right" timestamp="1616014473066">
+    <state width="1237" height="236" key="GridCell.Tab.0.right" timestamp="1616259566735">
       <screen x="0" y="-1024" width="1280" height="984" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.right/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616014473066" />
+    <state width="1237" height="236" key="GridCell.Tab.0.right/0.0.1366.728/0.-1024.1280.984@0.-1024.1280.984" timestamp="1616259566735" />
     <state width="1323" height="103" key="GridCell.Tab.0.right/0.0.1366.728/0.-1024.1280.984@0.0.1366.728" timestamp="1615579803917" />
     <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615921552446" />
     <state width="1237" height="158" key="GridCell.Tab.1.bottom" timestamp="1616005800992">
